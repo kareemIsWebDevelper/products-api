@@ -1,0 +1,35 @@
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 50px 0 50px;
+}
+
+.nav {
+    display: none;
+    align-items: center;
+}
+.nav-link {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+#navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+}
+span {
+    font-weight: 900;
+    color: rgb(255, 234, 234);
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+#dropdown-menu {
+    display: flex;
+    gap: 20px;
+}
